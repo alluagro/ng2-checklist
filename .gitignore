@@ -5,8 +5,8 @@ npm-debug.log
 Thumbs.db
 .DS_Store
 # Ignored files
-*.js
-*.map
-*.d.ts
+# *.js
+# *.map
+# *.d.ts
 
-typings
+# typings
