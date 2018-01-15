@@ -27,8 +27,8 @@
     "url": "https://github.com/amaanm/ng2-checklist/issues"
   },
   "files": [
-    "src/index.ts",
-    "src/checklist.ts",
+    "index.ts",
+    "checklist.ts",
     "index.d.ts",
     "index.js",
     "index.js.map",
