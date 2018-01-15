@@ -1,43 +1,37 @@
 {
-  "name": "ng2-checklist",
-  "version": "1.0.2",
-  "description": "A very simple checklist directive to get a set of checkboxes to map to an array of strings",
-  "main": "index.js",
-  "typings": "./index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "typings install && tsc --outDir ."
+  "_from": "ng2-checklist",
+  "_id": "ng2-checklist@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-qftse3IKFsUeWwn3bt9KF4OsC7Q=",
+  "_location": "/ng2-checklist",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "ng2-checklist",
+    "name": "ng2-checklist",
+    "escapedName": "ng2-checklist",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amaanm/ng2-checklist.git"
-  },
-  "keywords": [
-    "angular",
-    "angular2",
-    "checklist",
-    "checkbox",
-    "array",
-    "string",
-    "model"
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
-  "author": "Amaan M",
-  "license": "MIT",
+  "_resolved": "https://registry.npmjs.org/ng2-checklist/-/ng2-checklist-1.0.2.tgz",
+  "_shasum": "a9fb6c7b720a16c51e5b09f76edf4a1783ac0bb4",
+  "_spec": "ng2-checklist",
+  "_where": "/home/ivan/repositories/alluagro/pro/alluagro-pro-frontend",
+  "author": {
+    "name": "Amaan M"
+  },
   "bugs": {
     "url": "https://github.com/amaanm/ng2-checklist/issues"
   },
-  "files": [
-    "index.ts",
-    "checklist.ts",
-    "index.d.ts",
-    "index.js",
-    "index.js.map",
-    "checklist.d.ts",
-    "checklist.js",
-    "checklist.js.map",
-    "typings.json"
-  ],
-  "homepage": "https://github.com/amaanm/ng2-checklist#readme",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A very simple checklist directive to get a set of checkboxes to map to an array of strings",
   "devDependencies": {
     "@angular/core": "^2.0.0-rc.0",
     "es6-shim": "0.35.1",
@@ -57,7 +51,45 @@
     "webpack": "1.13.1",
     "zone.js": "0.6.12"
   },
+  "files": [
+    "src/index.ts",
+    "src/checklist.ts",
+		"src/checklist.d.ts",
+		"src/checklist.js",
+		"src/checklist.js.map",
+    "index.d.ts",
+    "index.js",
+    "index.js.map",
+    "checklist.d.ts",
+    "checklist.js",
+    "checklist.js.map",
+    "typings.json",
+		"tsconfig.json"
+  ],
+  "homepage": "https://github.com/amaanm/ng2-checklist#readme",
+  "keywords": [
+    "angular",
+    "angular2",
+    "checklist",
+    "checkbox",
+    "array",
+    "string",
+    "model"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "ng2-checklist",
   "peerDependencies": {
     "@angular/core": "2.0.0-rc.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaanm/ng2-checklist.git"
+  },
+  "scripts": {
+    "prepublish": "typings install && tsc --outDir .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typings": "./index.d.ts",
+  "version": "1.0.2"
 }
