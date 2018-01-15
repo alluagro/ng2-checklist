@@ -1,5 +1,4 @@
 {
-	"version": "1.8.10",
   "compilerOptions": {
     "outDir": ".",
     "target": "es5",
@@ -22,11 +21,13 @@
     "node_modules"
   ],
   "files": [
-		"typings/index.d.ts",
-    "src/checklist.ts",
-    "src/index.ts"
+    "checklist.ts",
+    "index.ts",
+    "typings/index.d.ts"
   ],
   "angularCompilerOptions": {
+    "genDir": "temp/factories",
 		"strictMetadataEmit": true
-  }
+  },
+	"atom": { "rewriteTsconfig": false }
 }
